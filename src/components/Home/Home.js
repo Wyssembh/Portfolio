@@ -4,8 +4,11 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import { AiOutlineDownload } from "react-icons/ai";
+import Button from "react-bootstrap/Button";
 
 function Home() {
+ 
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -22,13 +25,19 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> WISSEM BOUHAMDA</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
+
+          
+           
+
+
             </Col>
+            
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
@@ -38,10 +47,12 @@ function Home() {
                 style={{ maxHeight: "450px" }}
               />
             </Col>
+            
           </Row>
         </Container>
       </Container>
       <Home2 />
+      
     </section>
   );
 }
