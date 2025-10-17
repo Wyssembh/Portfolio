@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.png";
+import Contact from "../contact";
+
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -8,9 +10,9 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-
 function Home2() {
   return (
+    <section>
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
@@ -98,9 +100,14 @@ function Home2() {
               </li>
             </ul>
           </Col>
+          
         </Row>
       </Container>
+      
     </Container>
+   <Contact/>
+    </section>
+    
   );
 }
 export default Home2;

@@ -742,3 +742,83 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+.contact-section {
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.contact-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+
+.contact-subtitle {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.contact-content {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-input,
+.contact-textarea {
+  border: 1px solid #555;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.contact-textarea {
+  height: 150px;
+}
+
+.contact-button {
+  background-color: #fff;
+  color: #1f1f1f;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-button:hover {
+  background-color: #6c63ff;
+  color: #fff;
+}
+
+.contact-social {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icon {
+  font-size: 1.5em;
+}
